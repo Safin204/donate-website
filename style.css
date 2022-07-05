@@ -1,0 +1,124 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+
+}
+
+.help-1 h1 {
+    font-size: 50px;
+
+}
+
+.help-1 p {
+    max-width: 700px;
+    font-size: 10px;
+    text-align: center;
+}
+
+
+
+.link-button {
+    color: orangered;
+    text-decoration: none;
+    background-color: rgb(231, 71, 14);
+    color: white;
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
+#help-them {
+    background-image: url(./images/donation6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 200%;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+
+
+
+}
+
+.help-1 {
+    width: 50%;
+    padding: 2%;
+}
+
+.help-2 {
+    text-align: center;
+    justify-content: center;
+
+}
+
+.help-3 {
+    display: flex;
+    justify-content: space-evenly;
+
+    font-size: 30px;
+}
+
+.set-clr {
+    color: orange;
+}
+
+.help-4 {
+    text-align: center;
+
+}
+
+.help-all {
+    text-align: center;
+}
+
+.help-all h1 {
+    font-size: 50px;
+}
+
+.box1 {
+    width: 270px;
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid gray;
+    padding: 25px;
+    box-shadow: 2px 2px 4px gray;
+    border-radius: 5px;
+    margin-top: 20px;
+
+    display: flex
+}
+
+.icon img {
+    width: 70px;
+
+}
+
+.plan-1 {
+    text-align: justify
+}
+
+.donate-plan {
+
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.do-footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+.do-footer i {
+    font-size: 30px;
+    color: rgb(206, 39, 39);
+}
+
+.do-footer p {
+    color: rgb(61, 61, 90);
+}
