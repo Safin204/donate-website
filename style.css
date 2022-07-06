@@ -7,11 +7,12 @@ body {
 .help-1 h1 {
     font-size: 50px;
 
+
 }
 
 .help-1 p {
     max-width: 700px;
-    font-size: 10px;
+    font-size: 15px;
     text-align: center;
 }
 
@@ -25,6 +26,7 @@ body {
     font-weight: 700;
     padding: 10px 40px;
     border-radius: 5px;
+
 
 }
 
@@ -55,13 +57,23 @@ body {
 
 }
 
+.help-2 h1 {
+    font-size: 40px;
+}
+
+.help-2 p {
+    font-size: 15px;
+    text-align: center;
+}
+
 
 
 .help-3 {
     display: flex;
     justify-content: space-evenly;
-
+    background-color: azure;
     font-size: 30px;
+
 }
 
 .set-clr {
@@ -100,6 +112,20 @@ body {
     display: flex
 }
 
+.box-clr1 {
+    background-color: cornflowerblue;
+}
+
+.box-clr2 {
+    background-color: darkgray;
+}
+
+.box-clr3 {
+    background-color: darkcyan;
+}
+
+
+
 .icon img {
     width: 70px;
 
@@ -117,6 +143,32 @@ body {
     padding: 20px;
     flex-wrap: wrap;
 }
+
+.child-1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: darkgreen;
+}
+
+.children-1 {
+    display: flex;
+    background-color: black;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+.children-1 h1 {
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.children-1 p {
+    color: rgb(63, 116, 63);
+}
+
 
 .give-them {
     text-align: center;
@@ -167,13 +219,23 @@ body {
     background-color: black;
     text-align: center;
     color: white;
+    width: 100%;
+    margin: 10px;
+    padding: 50px;
+    border: 60px;
+
+
+
 }
 
 .do-footer i {
     font-size: 30px;
+    font-weight: 700;
     color: rgb(206, 39, 39);
+    font-family: 'Dancing Script', cursive;
+
 }
 
 .do-footer p {
-    color: rgb(61, 61, 90);
+    color: white;
 }
